@@ -10,6 +10,12 @@ namespace WebAddressbookTests
     {
         private string firstname;
         private string lastname;
+        private string v;
+
+        public ContactData(string v)
+        {
+            this.v = v;
+        }
 
         public ContactData(string firstname, string lastname)
         {
